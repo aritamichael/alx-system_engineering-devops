@@ -1,0 +1,2 @@
+#!/bin/basho
+echo (a..z)(a..z) | tr ' ' '\n' | grepn -v "oo"
